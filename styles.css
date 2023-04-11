@@ -96,7 +96,7 @@ h2 {
     width: auto;
     height: auto;
     border-radius: 20px 20px 0 0;
-    margin-top: 10px;
+    border:#333 solid 1px;
 }
 
 .product button {
@@ -190,7 +190,7 @@ h2 {
     margin-right: 20px;
 }
 
-.cart .total .checkout button {
+.cart .total .checkout-from-cart button {
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -203,4 +203,83 @@ h2 {
     font-weight: 700;
     cursor: pointer;
 
+
 }
+
+.cart .total .checkout-from-cart a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.checkout {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-left: 10px;
+    margin-right: 40px;
+
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+form label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #a85151 solid 1px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #a85151 solid 1px;
+    background-color: #a85151;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+    color: #fff;
+}   
+
+form a {
+    text-decoration: none;
+    color: #333;
+}
+
