@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+body {
+    font-family: 'Chivo Mono', monospace;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    background-color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+.nav h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    color: #fff;
+    
+
+
+    
+}
+
+.nav h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav h1 a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    background-color: #a85151;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+
+.nav-links a {
+    list-style: none;
+    margin: 25px;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.right {
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: auto;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    margin-top: 10px;
+}
+    
